@@ -1,0 +1,118 @@
+.botao{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.botao:hover {
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+    transition-duration: 0.3s;
+}
+header {
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+}
+
+body{
+    background-color: pink;
+    font-family: Arial, sans-serif;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    height: 400px;
+    justify-content:space-evenly; 
+    background-color: aquamarine;
+    padding-top: 30px;
+    align-items: flex-start;
+}
+main{
+    text-align: center;
+    background-color: lime;
+}
+
+.card1{
+    background-color: rgb(106, 131, 212);
+    border-radius: 8px;
+    text-align: center;
+    width: 500px;
+    height: 330px;
+    text-align: center;
+    
+}
+.card1 img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    width: 80px;
+    height: 80px;
+
+}
+
+.card1:hover {
+  background-color: rgb(80, 100, 180);
+  transform: scale(1.05); 
+  cursor: grabbing; 
+  transition-duration: 0.5s;
+}
+.card2{
+    background-color: rgb(212, 106, 106);
+    border-radius: 8px;
+    text-align: center;
+    width: 500px;
+    height: 330px;
+    text-align: center;
+}
+.card2 img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    width: 80px;
+    height: 80px;
+
+}
+
+.card2:hover {
+  background-color: rgb(212, 106, 106);
+  transform: scale(1.05); 
+  cursor: grabbing; 
+  transition-duration: 0.5s;
+}
+
+.card3{
+    background-color: rgb(234, 236, 116);
+    border-radius: 8px;
+    text-align: center;
+    width: 500px;
+    height: 330px;
+}
+.card3 img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    width: 80px;
+    height: 80px;
+
+}
+
+.card3:hover {
+  background-color: rgb(234, 236, 116);
+  transform: scale(1.05); 
+  cursor: grabbing; 
+  transition-duration: 0.5s;
+}
