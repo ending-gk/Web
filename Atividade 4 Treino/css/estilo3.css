@@ -31,14 +31,9 @@ header{
     font-size: 30px;
 }
 
-.conteiner{
-    display: grid;
-
-}
-
 body{
     background: url("../imagem/cinema.png") repeat center;
-    background-size: 200px;
+    background-size: 100px;
     
 }
 
@@ -50,4 +45,83 @@ footer{
     background-color: rgba(255, 255, 0, 0.863);
     height: 100px;
     text-align: center;
+}
+
+.conteiner{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+
+}
+.div1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 500px;
+    height: 100%;
+    border-radius: 10px;
+}
+.div1 img{
+    display: grid;
+    width: 416px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 10px;
+    
+
+}
+
+.div2{
+    display: grid;
+    grid-column: 2 / 5;
+    background-color: white;
+    height:300px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.texto1{
+    margin-bottom: 150px;
+} 
+
+.div3{
+    display: grid;
+    grid-column: 1/ 4;
+    background-color: white;
+    border-radius: 10px;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.texto2{
+    margin-bottom: 150px;
+}    
+
+
+
+.div4{
+    display: grid;
+    grid-column: 4/ 5;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 500px;
+    max-width: 80%;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.div4 img{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 250px;
+    border-radius: 10px;
+    padding-left: 20px;
 }
